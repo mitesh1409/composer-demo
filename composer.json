@@ -1,0 +1,21 @@
+{
+    "name": "mitesh1409/composer-demo",
+    "description": "Demo app on how to use composer tool. PSR-4 autoloading. Installing dependencies.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitesh Prajapati",
+            "email": "mitesh5.mprajapati@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "nesbot/carbon": "^2.32"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "app/"
+        }
+    }
+}
