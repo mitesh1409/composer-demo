@@ -16,12 +16,12 @@ Run the following command:
 Run the following command:  
 `composer dump-autoload -o`
 
-Define application namespace by adding the following code snippet in the composer.json file:
+Define application namespace by adding the following code snippet in the composer.json file:  
 `
-"autoload": {
-    "psr-4": {
-        "MyApp\\": "app/"
-    }
+"autoload": {  
+    "psr-4": {  
+        "MyApp\\": "app/"  
+    }  
 }
 `
 
