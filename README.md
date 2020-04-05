@@ -26,5 +26,5 @@ Define application namespace by adding the following code snippet in the compose
 `
 
 ## Installing dependency
-Run the following command:
+Run the following command:  
 `composer require nesbot/carbon`
